@@ -7,7 +7,7 @@
     Copie o arquivo .env.example para .env e popule com seus dados
     yarn install
     yarn migration:run
-    yarn start
+    yarn start:dev
 ```
 
 # API
