@@ -23,7 +23,7 @@ export class PostgresConnection implements DbTransaction {
   }
 
   async connect (connection: any): Promise<void> {
-    this.connection = getConnectionManager().has('postgres-default')
+    this.connection = getConnectionManager().has('default')
       ? getConnection()
       : await createConnection(connection)
   }

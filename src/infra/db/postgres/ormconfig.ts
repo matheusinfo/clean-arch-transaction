@@ -1,7 +1,6 @@
 import env from '../../../main/config/env'
 
 export = {
-    name: 'postgres-default',
     type: 'postgres',
     host: env.databases.postgres.host,
     database: env.databases.postgres.database,

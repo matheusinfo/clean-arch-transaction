@@ -4,7 +4,6 @@ import app from './config/app'
 import env from './config/env'
 
 PostgresConnection.getInstance().connect({
-  name: 'postgres-default',
   type: 'postgres',
   host: env.databases.postgres.host,
   database: env.databases.postgres.database,
