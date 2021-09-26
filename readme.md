@@ -1,4 +1,4 @@
-# Implementação de transaction na Clean Archictecture
+# Implementação de transaction na Clean Architecture
 
 ### <strong>Como usar</strong>
 
@@ -15,7 +15,7 @@
 ### <strong>Rota criada</strong>
 
 <strong>Como foi um projeto apenas para estudo de transaction na estrutura </br>
-da Clean Archictecture criei apenas uma rota que recebe dois usuários a serem criados, </br>
+da Clean Architecture criei apenas uma rota que recebe dois usuários a serem criados, </br>
 o usuário tem um e-mail que é um campo único na tabela. Sem o uso de transaction caso </br>
 seja enviado o primeiro usuário com um e-mail que não existe e o segundo já exista na tabela </br>
 o primeiro usuário iria ser criado normalmente e para o segundo iria estourar uma exceção. </br>
